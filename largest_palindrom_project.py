@@ -11,3 +11,6 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 References:
     - https://en.wikipedia.org/wiki/Palindromic_number
 """
+
+def largest_palindrome_number():
+    pass
