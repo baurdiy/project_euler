@@ -10,3 +10,6 @@ What is the largest prime factor of the number 600851475143?
 References:
     - https://en.wikipedia.org/wiki/Prime_number#Unique_factorization
 """
+
+def largest_prime():
+    pass 
