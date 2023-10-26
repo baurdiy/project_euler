@@ -1,2 +1,2 @@
 # project_euler
-# learing how to solve and practice problems
+# learning how to solve problems from Project Euler 
