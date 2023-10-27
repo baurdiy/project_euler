@@ -26,7 +26,7 @@ def sum_even_fibonacci_numbers(n: int = 4000000) -> int:
         fib1, fib2 = fib2, fib1 + fib2 
     
     return sum_even
-
+print("Sum of even numbers in Fibonacci: ")
 print(sum_even_fibonacci_numbers())
 print("End")
 
