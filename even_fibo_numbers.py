@@ -28,4 +28,5 @@ def sum_even_fibonacci_numbers(n: int = 4000000) -> int:
     return sum_even
 
 print(sum_even_fibonacci_numbers())
+print("End")
 
