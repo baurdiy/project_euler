@@ -16,14 +16,13 @@ References:
 """
 
 def sum_even_fibonacci_numbers(n: int = 4000000) -> int:
-
     fib1 = 1 
     fib2 = 2
     sum_even = 0
 
     while fib2 <= n:
         if fib2 % 2 == 0: 
-            sum_even += fib2 
+            sum_even += fib2 # sum = sum + fib2
         fib1, fib2 = fib2, fib1 + fib2 
     
     return sum_even
