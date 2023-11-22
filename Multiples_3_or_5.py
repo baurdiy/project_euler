@@ -19,5 +19,6 @@ def multiples_3_5(n):
 
     return sum(l)
 
-print(multiples_3_5(10))
+if __name__ == "__main__":
+    print(multiples_3_5(10))
 
