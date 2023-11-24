@@ -28,7 +28,8 @@ hundred natural numbers and the square of the sum.
 # print((sum(natural_numbers) ** 2) - sum(square_sum))
 
 def sum_square_difference_list(n: int = 100) -> int:
-    """ Difference between sum of the squares and square of the sum from 1 to n """
+    """ Difference between sum of the squares and square of the sum from 1 to n. 
+    O(n) time and space complexity"""
     square_of_sum = []
     sum_of_squares = []
     for i in range(1, n + 1):
@@ -43,7 +44,8 @@ if __name__ == "__main__":
 
 
 def sum_square_difference(n: int = 100) -> int:
-    """ Difference between sum of the squares and square of the sum from 1 to n """
+    """ Difference between sum of the squares and square of the sum from 1 to n
+     O(n) time complexity and O(1) space complexity """
     square_of_sum = 0
     sum_of_squares = 0
     for i in range(1, n + 1):
